@@ -1,0 +1,20 @@
+<!doctype html>
+<html ng-app="app3">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+    <script src="angular1.js"></script>
+  </head>
+  <body>
+    <div>
+      <label>Name:</label>
+      <input type="text" ng-model="yourName" placeholder="Enter a name here">
+      <hr>
+      <h1>Hello {{yourName}}!</h1>
+    </div>
+    <div id="groceryList" ng-controller="gListCtrl">
+        <h3 class="TitleList">{{groceries.length}} groceries to buy</h3>
+        
+    </div>
+    
+  </body>
+</html>
